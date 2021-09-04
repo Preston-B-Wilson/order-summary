@@ -1,0 +1,19 @@
+{
+  "name": "backend-order-summary-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "run" : "npm start --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosoypan/DEMO-order-summary-component-main.git"
+  },
+  "author": "YoSoyPan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yosoypan/DEMO-order-summary-component-main/issues"
+  },
+  "homepage": "https://github.com/yosoypan/DEMO-order-summary-component-main#readme"
+}
