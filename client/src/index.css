@@ -34,7 +34,7 @@ code {
   top: 50%;
   left: 50%;
   transform:translate(-50%, -50%);
- 
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.13);
 }
 
 #hero {
@@ -148,6 +148,65 @@ code {
 #cancel-button:hover {
   color: #282E47;
 }
+
+@media (min-width: 280px) and (min-height: 653px) { 
+  .summary-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    transform:translate(-50%, -50%) scale(.55);
+  }
+}
+
+@media (min-width: 320px) and (min-height: 568px) { 
+  .summary-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    transform:translate(-50%, -50%) scale(.60);
+  }
+}
+
+@media (min-width: 375px) and (min-height: 667px) { 
+  .summary-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    transform:translate(-50%, -50%) scale(.75);
+  }
+}
+
+@media (min-width: 414px) and (max-height: 812px) { 
+  .summary-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    transform:translate(-50%, -50%) scale(.8);
+  }
+}
+
+@media (min-width: 768px) and (min-height: 1024px) { 
+  .summary-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    transform:translate(-50%, -50%) scale(1.2);
+  }
+}
+
+@media (min-width: 1024px) and (min-height: 1366px) { 
+  .summary-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    transform:translate(-50%, -50%) scale(1.5);
+  }
+}
+
+@media (min-width: 1024px) { 
+  .summary-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    transform:translate(-50%, -50%) scale(1);
+  }
+}
+
+
+
 
 
 
