@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "run" : "npm start --prefix client"
+    "start" : "npm start --prefix client"
   },
   "repository": {
     "type": "git",

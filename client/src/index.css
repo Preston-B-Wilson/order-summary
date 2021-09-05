@@ -1,13 +1,154 @@
+  @font-face { font-family: 'red-hat-bold'; 
+  src: url('./fonts/RedHatDisplay-Black.ttf'); } 
+
+  @font-face { font-family: 'red-hat-regular'; 
+    src: url('./fonts/RedHatDisplay-Medium.ttf'); } 
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #E0E8FF;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.root-wrapper {
+  background-color: transparent;
+  background-size: 100% 100%;
+  background-position-y: -300px;
+  width:100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+
+}
+
+.summary-container {
+  white-space: pre-line;
+  width: 450px;
+  background-color: #FFFFFF;
+  border-radius: 25px; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+ 
+}
+
+#hero {
+  border-radius: 25px; 
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#order-summary-title {
+  margin-top: 40px;
+  text-align: center;
+  color: #1C2E52;
+  font-family: 'red-hat-bold';
+  font-size: 28px;
+}
+
+#order-summary-description {
+  text-align: center;
+  color: #787F93;
+  margin-bottom: 20px;
+  font-family: 'red-hat-regular';
+  line-height: 25px;
+}
+
+.selected-plan {
+  display: flex;
+  justify-content: center;
+  background-color: #F8F9FE;
+  height: 100px;
+  margin-left: 47px;
+  margin-right: 47px;
+  margin-bottom: 30px;
+  border-radius: 10px; 
+}
+
+#selected-plan-text-wrap {
+  margin: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#musicIcon {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  margin-right: 20px;
+}
+
+#changeplan-title {
+  color: #1C2E52;
+  margin-bottom: -10px;
+  font-family: 'red-hat-bold';
+  font-size: 16px;
+}
+
+#changeplan-description {
+  color: #787F93;
+  font-family: 'red-hat-regular';
+}
+
+#change-plan-button {
+  color: #4639CD;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  align-self: center;
+  margin-left: 85px;
+  background-color: transparent;
+  border-style: none;
+  text-decoration: underline;
+  font-family: 'red-hat-bold';
+  font-size: 14px;
+}
+
+#change-plan-button:hover {
+  color: #766CF1;
+  text-decoration: none;
+}
+
+#checkout-button {
+  background-color: #382AE1;
+  color: #FFFFFF;
+  display: block;
+  margin:auto;
+  width: 355px;
+  height: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px; 
+  border: none;
+  font-family: 'red-hat-bold';
+  font-size: 15px;
+  box-shadow: 0px 15px 20px #392ae142;
+}
+
+#checkout-button:hover {
+  background-color: #766CF1;
+  box-shadow: 0px 15px 20px #776cf138;
+}
+
+#cancel-button {
+  color: #6D7698;
+  margin:auto;
+  display: block;
+  margin-bottom: 50px;
+  background-color: transparent;
+  border: none;
+  font-family: 'red-hat-bold';
+  font-size: 15px;
+}
+
+#cancel-button:hover {
+  color: #282E47;
+}
+
+
+
+
