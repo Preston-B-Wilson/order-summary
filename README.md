@@ -5,9 +5,9 @@
 This is my completion of the Order summary component challenge on frontendmentor.io
 https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
 
-v To view v__
-GitPage demo https://yosoypan.github.io/order-summary-challenge/ __
-Or__
+v To view v <br />
+GitPage demo https://yosoypan.github.io/order-summary-challenge/ <br />
+Or <br />
 Follow the installation and usage below.
 
 ## Installation
