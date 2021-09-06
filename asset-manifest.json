@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/order-summary-challenge/static/css/main.b83feb29.chunk.css",
+    "main.js": "/order-summary-challenge/static/js/main.4dca471f.chunk.js",
+    "main.js.map": "/order-summary-challenge/static/js/main.4dca471f.chunk.js.map",
+    "runtime-main.js": "/order-summary-challenge/static/js/runtime-main.cd353b57.js",
+    "runtime-main.js.map": "/order-summary-challenge/static/js/runtime-main.cd353b57.js.map",
+    "static/js/2.3cf338d8.chunk.js": "/order-summary-challenge/static/js/2.3cf338d8.chunk.js",
+    "static/js/2.3cf338d8.chunk.js.map": "/order-summary-challenge/static/js/2.3cf338d8.chunk.js.map",
+    "static/js/3.9a0c88c1.chunk.js": "/order-summary-challenge/static/js/3.9a0c88c1.chunk.js",
+    "static/js/3.9a0c88c1.chunk.js.map": "/order-summary-challenge/static/js/3.9a0c88c1.chunk.js.map",
+    "index.html": "/order-summary-challenge/index.html",
+    "static/css/main.b83feb29.chunk.css.map": "/order-summary-challenge/static/css/main.b83feb29.chunk.css.map",
+    "static/js/2.3cf338d8.chunk.js.LICENSE.txt": "/order-summary-challenge/static/js/2.3cf338d8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/order-summary-challenge/static/media/RedHatDisplay-Medium.55973a9d.ttf",
+    "static/media/icon-music.f20c7787.svg": "/order-summary-challenge/static/media/icon-music.f20c7787.svg",
+    "static/media/illustration-hero.73032583.svg": "/order-summary-challenge/static/media/illustration-hero.73032583.svg",
+    "static/media/pattern-background-desktop.5a0ab689.svg": "/order-summary-challenge/static/media/pattern-background-desktop.5a0ab689.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd353b57.js",
+    "static/js/2.3cf338d8.chunk.js",
+    "static/css/main.b83feb29.chunk.css",
+    "static/js/main.4dca471f.chunk.js"
+  ]
+}
